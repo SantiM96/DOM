@@ -62,26 +62,50 @@ $(function() {
         
         if (this.style.backgroundColor == violet) {
             $('.servicios a').css({ 'background-color': blue });
+
+            if (this == $('.servicios nav a')[0]) { 
+                $('#viajes').slideUp(500);
+            }
+            if (this == $('.servicios nav a')[1]) { 
+                $('#asesoria').slideUp(500);
+            }
+            if (this == $('.servicios nav a')[2]) { 
+                $('#transoprte').slideUp(500);
+            }
+
         }
         else {
             $('.servicios a').css({ 'background-color': blue });
             $(this).css({ 'background-color': violet });
 
-            console.log(this);
-            console.log($('#viajes-button')[0]);
 
-            if (this == $('#viajes-button')) console.log('hola');
+
+            if (this == $('.servicios nav a')[0]) {
+                $('#viajes').slideUp(150);
+                $('#asesoria').slideUp(150);
+                $('#transoprte').slideUp(150);
+                $('#viajes').slideDown(500);
+                
+            }
+            if (this == $('.servicios nav a')[1]) { 
+                $('#viajes').slideUp(150);
+                $('#asesoria').slideUp(150);
+                $('#transoprte').slideUp(150);
+                $('#asesoria').slideDown(500);
+                
+            }
+            if (this == $('.servicios nav a')[2]) { 
+                $('#viajes').slideUp(150);
+                $('#asesoria').slideUp(150);
+                $('#transoprte').slideUp(150);
+                $('#transoprte').slideDown(500);
+                
+            }
+        }
 
 
             //console.log($('.servicios a'));
-        }
-
-        
     }
 
-
-
-
-
-
+        
 })

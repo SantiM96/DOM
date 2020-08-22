@@ -80,18 +80,19 @@ nav ul li a:hover {
     color: white;
     border-start-start-radius: .3rem;
     border-start-end-radius: .3rem;
+    transition: all .2s;
 }
 .servicios nav a:hover {
-    background-color: #db008d;
-}
-.nuestros-servicios {
-    position: relative;
-    height: 7rem;
+    background-color: #f1029e!important;
 }
 .nuestros-servicios div {
-    position: absolute;
     display: none;
     padding-top: 1rem;
+    background-color: #db008d;
+    color: white;
+    padding: 1rem;
+    border-end-end-radius: 1rem;
+    border-end-start-radius: 1rem;
 }
 
 /* Segundo nivel **/
