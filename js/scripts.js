@@ -1,4 +1,4 @@
-(function () {
+(function() {
     'use strict';
     document.addEventListener('DOMContentLoaded', function () {
 
@@ -68,26 +68,7 @@
 
         oldTitle.parentNode.replaceChild(NewTitle, oldTitle);
 
-
-
-        //console.log(oldTitle);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
 
     });
 

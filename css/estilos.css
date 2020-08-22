@@ -66,12 +66,40 @@ nav ul li a:hover {
     background-color: #00b8e4;
 }
 
-/* SEgundo nivel **/
+/** Nuestros Servicios **/
+
+.servicios nav {
+    background-color: #00b8e4;
+    border-start-start-radius: .3rem;
+    border-start-end-radius: .3rem;
+}
+.servicios nav a {
+    display: inline-block;
+    padding: .5rem 1.2rem;
+    text-decoration: none;
+    color: white;
+    border-start-start-radius: .3rem;
+    border-start-end-radius: .3rem;
+}
+.servicios nav a:hover {
+    background-color: #db008d;
+}
+.nuestros-servicios {
+    position: relative;
+    height: 7rem;
+}
+.nuestros-servicios div {
+    position: absolute;
+    display: none;
+    padding-top: 1rem;
+}
+
+/* Segundo nivel **/
 
 nav ul ul {
     position: absolute;
     top: 100%;
-    background-color: rgba(0, 184, 228, .7);
+    background-color: hsla(192, 100%, 45%, 0.7);
     display: none;
 }
 
@@ -80,7 +108,7 @@ nav ul li:hover>ul {
 }
 
 nav ul li:hover {
-    background-color: rgba(0, 184, 228, .7);
+    background-color: hsla(192, 100%, 45%, 0.7);
 }
 
 /** Contenido Principal**/
@@ -108,7 +136,7 @@ article {
 
 h2 {
     color: #00b8e4;
-    margin-bottom: 20px;
+    margin: 2.5rem 0 1rem 0;
 }
 
 article::after {
