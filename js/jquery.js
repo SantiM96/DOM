@@ -31,7 +31,6 @@ $(function() {
     })
     
 
-
     //Agregar hover a lo añadido con scripts.js
     $('aside ul li').on('mouseenter', function() { 
         $(this).css({ 'color': '#ffffff' });
@@ -88,7 +87,5 @@ $(function() {
                 $('#transoprte').slideDown(500);   
             }
         }
-    }
-
-        
+    }     
 })
